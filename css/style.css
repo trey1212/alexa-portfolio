@@ -1,24 +1,24 @@
 @font-face {
     font-family: 'new';
-    src: url('font/PP_Editorial_New/PPEditorialNew-Regular.otf') format('opentype');
+    src: url('../font/PP_Editorial_New/PPEditorialNew-Regular.otf') format('opentype');
     font-weight: bold;
     font-style: normal;
 }
 
 @font-face {
     font-family: 'old';
-    src: url('font/PP_Editorial_Old/PPEditorialOld-Regular.otf') format('opentype');
+    src: url('../font/PP_Editorial_Old/PPEditorialOld-Regular.otf') format('opentype');
 }
 
 @font-face {
     font-family: 'neue_montreal_medium';
-    src: url('font/PP_Neue_Montreal/PPNeueMontreal-Medium.otf') format('opentype');
+    src: url('../font/PP_Neue_Montreal/PPNeueMontreal-Medium.otf') format('opentype');
     font-weight: medium;
 }
 
 @font-face {
     font-family: 'neue_montreal_book';
-    src: url('font/PP_Neue_Montreal/PPNeueMontreal-Book.otf') format('opentype');
+    src: url('../font/PP_Neue_Montreal/PPNeueMontreal-Book.otf') format('opentype');
     font-weight: normal;
 }
 
