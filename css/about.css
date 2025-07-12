@@ -1,0 +1,55 @@
+/* Main section */
+main {
+    display: flex;
+    gap: 40px;
+}
+
+main > img {
+    width: 316px;
+    height: 476px;
+}
+
+/* Article section */
+article {
+    width: 430px;
+}
+
+article > p {
+    font-family: neue_montreal_book;
+    font-size: 15px;
+    line-height: 1.1;
+}
+
+#open {
+    font-family: old;
+    font-size: 20px;
+    padding-bottom: 20px;
+}
+
+#end {
+    font-family: old;
+    font-size: 20px;
+    padding-top: 15px;
+    line-height: 1.5;
+}
+/* Article section */
+/* Main section */
+
+/* Filler images section */
+#giant_flower_2 {
+    width: 722px;
+    height: 722px;
+    position: absolute;
+
+    left: 700px;
+    top: -350px;
+}
+
+/* Footer section */
+footer {
+    width: 1050px;
+    height: 110px;
+    margin-top: 180px;
+    border-top: solid 1px #000;
+}
+

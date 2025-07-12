@@ -1,0 +1,178 @@
+@font-face {
+    font-family: 'new';
+    src: url('/font/PP_Editorial_New/PPEditorialNew-Regular.otf') format('opentype');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'old';
+    src: url('/font/PP_Editorial_Old/PPEditorialOld-Regular.otf') format('opentype');
+}
+
+@font-face {
+    font-family: 'neue_montreal_medium';
+    src: url('/font/PP_Neue_Montreal/PPNeueMontreal-Medium.otf') format('opentype');
+    font-weight: medium;
+}
+
+@font-face {
+    font-family: 'neue_montreal_book';
+    src: url('/font/PP_Neue_Montreal/PPNeueMontreal-Book.otf') format('opentype');
+    font-weight: normal;
+}
+
+html, body {
+    background-color: #edeae5;
+    padding: 0;
+    margin: 0;
+    overflow-x: hidden;
+}
+
+/* Header section */
+header {
+    width: 100%;
+    height: 130px;
+    position: fixed;
+    background-color: #edeae5;
+    z-index: 10;
+}
+
+header > img {
+    width: 493px;
+    height: auto;
+    position: absolute;
+    top: -250px;
+    right: 0px;
+    rotate: 145deg;
+
+    pointer-events: none;
+}
+
+#nav {
+    font-family: neue_montreal_medium;
+
+    display: flex;
+    gap: 35px;
+
+    padding-left: 100px;
+    padding-top: 82px;
+}
+
+#nav > a {
+    text-decoration: none;
+    color: #000;
+}
+/* Header section */
+
+/* Main section */
+main {
+    width: 1000px;
+    padding-top: 250px;
+    padding-left: 100px;
+    padding-right: 380px;
+}
+
+#intro {
+    font-family: old;
+    font-size: 32px;
+    padding-bottom: 20px;
+    line-height: 1.5;
+
+    border-bottom: 1px solid #000;
+}
+
+/* Resume section */
+.section {
+    font-family: neue_montreal_book;
+    width: 100%;
+}
+
+.sectionTitle {
+    font-family: neue_montreal_medium;
+    font-size: 14px;
+    margin-top: 15px;
+}
+
+.section > ul {
+    font-family: old;
+    font-size: 19px;
+    list-style: none;
+
+    padding: 0;
+    padding-right: 200px;
+    padding-bottom: 50px;
+    margin: 0;
+    margin-top: 60px;
+    border-bottom: 1px solid #000;
+}
+
+.section > ul > li {
+    margin-bottom: 20px;
+}
+
+.section > ul > li > a {
+    color: #000;
+}
+
+.section > ul > li > p {
+    font-family: neue_montreal_book;
+    font-size: 15px;
+}
+/* Resume section */
+
+/* Filler images section */
+#fillerImages {
+    width: 1200px;
+    position: relative;
+    margin: 0 auto;
+}
+
+#spiral {
+    width: 455.23px;
+    height: 455.23px;
+    rotate: -47deg;
+    position: fixed;
+    left: -196px;
+    bottom: -165px;
+
+    pointer-events: none;
+}
+
+#giant_flower_1 {
+    width: 700px;
+    height: 700px;
+    position: absolute;
+    left: 880px;
+
+    pointer-events: none;
+}
+/* Main section */
+
+/* Footer section */
+footer {
+    font-family: neue_montreal_medium;
+    font-size: 14px;
+    display: flex;
+    height: 80px;
+    margin-left: 100px;
+    
+    overflow: hidden;
+}
+
+footer > img {
+    width: 217px;
+    height: 217px;
+    rotate: 27deg;
+
+    padding-top: 5px;
+    margin-top: -60px;
+
+    pointer-events: none;
+}
+
+#contact {
+    display: flex;
+    gap: 270px;
+    padding-top: 32px;
+}
