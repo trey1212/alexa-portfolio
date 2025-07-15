@@ -1,14 +1,10 @@
-body {
-    overflow-x: hidden;
-}
-
 /* Main section */
-#aboutContainer {
+main {
     display: flex;
     gap: 40px;
 }
 
-#aboutContainer > img {
+main > img {
     width: 316px;
     height: 476px;
 }
