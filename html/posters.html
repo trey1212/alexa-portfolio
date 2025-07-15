@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alexa Tarrayo - Posters</title>
+        
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/posters.css">
+    </head>
+
+    <body>
+        <header>
+            <img src="../img/zigzag.png" alt="zigzag"/>
+
+            <div id="nav">
+                <a href="../index.html">HOME</a>
+                <a href="html/about.html">ABOUT</a>
+                <a href="html/cv.html">CV</a>
+            </div>
+        </header>
+
+        <main>
+            <div id="pageTitle">Community Events and Posters</div>
+            
+            <div class="posters">
+                <div class="eventTitle">Glued Collective Presents: All Together Now</div>
+                <p>
+                    '<i>All Together Now! Why is it so hard to move together, and how do we keep trying?</i>' is an art hangout to 
+                    collage, draw, write, and create zines on the theme of collective movement, justice, and working together. 
+                    This poster was designed and fully illustrated by me and was used for print flyers, a postcard, and social media.
+                </p>
+
+                <div id="gluedContainer">
+                    <img src="../img/events-posters/glued-collective-poster.png" alt="Glued Collective Poster" id="gluedPoster"/>
+
+                    <div id="postcardContainer">
+                        <img src="../img/events-posters/glued-postcard-front.png" alt="Glued Collective Postcard Front" id="gluedPostcard"/>
+                        <img src="../img/events-posters/glued-postcard-back.png" alt="Glued Collective Postcard Back" id="gluedPostcard"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="posters">
+                <div class="eventTitle">My Petals are Bruised and I'm Still a Flower</div>
+                <p>
+                    '<i>My Petals are Bruised and I'm Still a Flower</i>' was an intimate, community-based gathering hosted by <i>PeerNetBC</i> 
+                    in partnership with community organizer and multidisciplinary artist Jotika from '<i>Jotika Healing Arts</i>'. The event 
+                    featured storytelling, poetry, and other modalities of artistic expression that centred and celebrated Sick & Disabled 
+                    Queer, Trans, Black, Indigenous and People of Colour (QTBIPoC) experiencing similar, intersectional barriers and 
+                    struggles of existing as a QTBIPoC person.
+                </p>
+
+                <div id="petalsContainer">
+                    <img src="../img/events-posters/petals-poster.png" alt="Petals Poster" id="petalsPoster"/>
+
+                    <div id="petalsSlideshow">
+                        <img src="../img/events-posters/slideshow/0403.jpg" class="slideshow active"/>
+                        <img src="../img/events-posters/slideshow/0377.jpg" class="slideshow"/>
+                        <img src="../img/events-posters/slideshow/0430.jpg" class="slideshow"/>
+                    </div>
+                </div>
+            </div>
+
+            <div class="posters">
+                <div class="eventTitle">Glued Collective Presents: GLUED, a BIPoC Zine and Art Fair</div>
+                <p>
+                    '<i>GLUED, a BIPOC Zine and Art Fair</i>' is a vendor market focused around sticking together, community and telling our stories. 
+                    We wanted to uplift new and veteran BIPOC zinesters, print makers and creators by organizing this event as a way to create 
+                    space for artists who are under-represented in many craft and market events in the city. I did the poster and social media 
+                    posts while using another organizer's hand drawn art to remix into graphics and posters for the event.
+                </p>
+
+                <div class="mediaTitle">EVENT POSTERS</div>
+
+                <div id="fairContainer">
+                    <img src="../img/events-posters/glued-arts-fair-poster-2.png" alt="Glued Arts Fair Poster 2"/>
+                    <img src="../img/events-posters/glued-arts-fair-poster-1.png" alt="Glued Arts Fair Poster 1"/>
+                    <img src="../img/events-posters/glued-poster-blue.png" alt="Glued Arts Fair Poster Blue"/>
+                </div>
+
+                
+                <div class="mediaTitle">SOCIAL MEDIA TEMPLATE (ALL ART AND BIOS BELONG TO THEIR RESPECTIVE CREATORS)</div>
+
+                <div id="socialMediaContainer">
+
+                    <img src="../img/events-posters/glued-social-media-1.png" alt="Glued Arts Fair Social Media 1"/>
+                    <img src="../img/events-posters/glued-social-media-2.png" alt="Glued Arts Fair Social Media 2"/>
+                    <img src="../img/events-posters/glued-social-media-3.png" alt="Glued Arts Fair Social Media 3"/>
+                </div>
+            </div>
+        </main>
+
+        <footer>
+            <img src="../img/dog_illust.png" alt="dog illust"/>
+            
+            <div id="contact">
+                <div>
+                    Alexa Tarrayo <br>
+                    Vancouver, BC
+                </div>
+
+                <div>
+                    Linked In <br>
+                    alexatarrayo@gmail.com
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            const slides = document.querySelectorAll('#petalsSlideshow .slideshow');
+            let current = 0;
+
+            function showSlide(index) {
+                slides.forEach((slide, i) => {
+                    slide.classList.toggle('active', i === index);
+                });
+            }
+
+            function nextSlide() {
+                current = (current + 1) % slides.length;
+                showSlide(current);
+            }
+
+            // Start automatic slideshow (change every 3 seconds)
+            setInterval(nextSlide, 3000);
+
+            // Initialize
+            showSlide(current);
+        </script>
+    </body>
+</html>

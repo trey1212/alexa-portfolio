@@ -1,0 +1,119 @@
+main {
+    width: 800px;
+}
+
+#pageTitle {
+    font-family: old;
+    font-size: 32px;
+    padding-bottom: 45px;
+}
+
+.eventTitle {
+    font-family: old;
+    font-size: 19px;
+}
+
+.posters > p {
+    font-family: neue_montreal_book;
+    font-size: 15px;
+}
+
+/* Main Section */
+/* Image Styling */
+/*Glued section */
+#gluedContainer {
+    display: flex;
+    gap: 40px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+}
+
+#gluedPoster {
+    width: 482px;
+    height: 603px;
+}
+
+#postcardContainer {
+    display: flex;
+    flex-direction: column;
+    gap: 17px;
+}
+
+#gluedPostcard {
+    width: 195px;
+    height: 293px;
+}
+/*Glued section */
+
+/* Petals section*/
+#petalsContainer {
+    display: flex;
+    width: 1000px;
+    padding-top: 20px;
+    padding-bottom: 50px;
+    gap: 20px;
+}
+
+#petalsPoster {
+    width: 497px;
+    height: 643px;
+}
+
+#petalsSlideshow {
+    position: relative;
+    width: 427px;
+    height: 643px;
+}
+
+.slideshow {
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s;
+}
+
+.slideshow.active {
+    opacity: 1;
+}
+/* Petals section*/
+
+/* Social media section */
+#fairContainer {
+    display: flex;
+    gap: 20px;
+
+    padding-bottom: 40px;
+}
+
+#fairContainer img {
+    width: 332px;
+    height: 430px;
+}
+
+#socialMediaContainer {
+    display: flex;
+    height: 331px;
+    gap: 22px;
+}
+
+.mediaTitle {
+    width: 1036px;
+    font-family: neue_montreal_medium;
+    font-size: 14px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    border-top: 1px solid #000;
+}
+/* Social media section */
+/* Image Styling */
+/* Main Section */
+
+/* Footer section */
+footer {
+    width: 1050px;
+    height: 80px;
+    margin-top: 180px;
+    border-top: solid 1px #000;
+}
+/* Footer section */
