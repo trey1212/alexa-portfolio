@@ -29,6 +29,14 @@ html, body {
     overflow-x: hidden;
 }
 
+img {
+    border: solid 0.5px #000;
+}
+
+img.noBorder {
+    border: none;
+}
+
 /* Header section */
 header {
     width: 100%;
@@ -175,4 +183,10 @@ footer > img {
     display: flex;
     gap: 270px;
     padding-top: 32px;
+}
+
+#pageTitle {
+    font-family: old;
+    font-size: 32px;
+    padding-bottom: 45px;
 }

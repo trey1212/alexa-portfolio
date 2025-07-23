@@ -1,0 +1,210 @@
+#pageTitle {
+    padding-bottom: 15px;
+}
+
+/* Section Detailing */
+.sectionTitle {
+    font-family: neue_montreal_medium;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.section > ul {
+    font-family: old;
+    font-size: 19px;
+    list-style: none;
+
+    padding: 0;
+    padding-right: 200px;
+    padding-bottom: 0;
+    margin: 0;
+    border-bottom: 1px solid #000;
+}
+
+.section > ul > li {
+    margin-bottom: 20px;
+}
+
+.section > ul > li > a {
+    color: #000;
+}
+
+.section > ul > li > p {
+    font-family: neue_montreal_book;
+    font-size: 15px;
+}
+/* Section Detailing */
+
+/* Brand Images */
+#brandContainer {
+    width: 1243px;
+    display: flex;
+    gap: 20px;
+    padding-top: 35px;
+    padding-bottom: 70px;
+    border-bottom: 1px solid #000;
+}
+
+.brandImage {
+    width: 401px;
+    height: 601px;
+}
+
+/* Slideshow */
+#heroSlideshow {
+    position: relative;
+    width: 1241px;
+    height: 622px;
+    padding-top: 50px;
+    padding-bottom: 55px;
+    
+    border-bottom: solid 1px #000;
+}
+
+#heroSlideshow .slide {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0;
+    transition: opacity 0.5s ease-in-out;
+    object-fit: contain;
+    object-position: center;
+    z-index: 0;
+}
+
+#heroSlideshow .slide.active {
+    opacity: 1;
+    z-index: 1;
+}
+
+#heroSlideshow button {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 50%;
+
+    background: #edeae5;
+    border: none;
+    border-radius: 100%;
+    cursor: pointer;
+    z-index: 2;
+    
+    opacity: 0;
+    transition: opacity 0.3s, transform 0.3s ease;
+}
+
+#heroSlideshow:hover button {
+    opacity: 0.8;
+}
+
+/* Button styling */
+#prevBtn { 
+    left: 25px;
+    width: 70px;
+    height: 70px;
+
+    transform: translateY(-50%) translateX(-15px);
+}
+
+.arrow_back_ios {
+    padding-left: 10px;
+}
+
+#heroSlideshow:hover #prevBtn {
+    opacity: 0.8;
+    transform: translateY(-50%) translateX(0);
+}
+
+#nextBtn { 
+    right: 25px; 
+    width: 70px;
+    height: 70px;
+
+    transform: translateY(-50%) translateX(15px);
+}
+
+.arrow_forward_ios {
+    padding-left: 2px;
+}
+
+#heroSlideshow:hover #nextBtn {
+    opacity: 0.8;
+    transform: translateY(-50%) translateX(0);
+}
+/* Button styling */
+/* Slideshow */
+
+/* Online Section */
+#onlineContainer {
+    display: flex;
+    padding-top: 20px;
+    gap: 20px;
+}
+
+.onlineSubContainer {
+    display: flex;
+    flex-direction: column;
+    font-family: neue_montreal_medium;;
+    font-size: 14px;
+    gap: 20px;
+    padding-bottom: 30px;
+}
+
+.onlineSubContainer img {
+    width: 401px;
+    height: 401px;
+}
+
+#instaGif {
+    width: 265px;
+    height: 401px;
+}
+
+#onlineParagraph {
+    width: 80%;
+    font-family: neue_montreal_book;
+    font-size: 15px;
+    padding-bottom: 40px;
+}
+/* Online Section */
+
+/* Opagee section */
+#opageeParagraph {
+    font-family: old;
+    font-size: 19px;
+}
+
+#opageeParagraph p {
+    width: 820px;
+    font-family: neue_montreal_book;
+    font-size: 15px;
+}
+
+#opageeContainer {
+    display: flex;
+    gap: 10px;
+    padding-top: 20px;
+}
+
+.oils {
+    width: 337px;
+    height: 405px;
+}
+
+.essentialOils {
+    width: 658px;
+    height: 405px;
+}
+/* Opagee section */
+
+/* Footer section */
+footer {
+    width: 1050px;
+    height: 110px;
+    margin-top: 90px;
+    border-top: solid 1px #000;
+}
+/* Footer section */

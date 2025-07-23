@@ -2,12 +2,6 @@ main {
     width: 800px;
 }
 
-#pageTitle {
-    font-family: old;
-    font-size: 32px;
-    padding-bottom: 45px;
-}
-
 .eventTitle {
     font-family: old;
     font-size: 19px;

@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Alexa Tarrayo</title>
+        
+        <link rel="stylesheet" href="../css/style.css">
+        <link rel="stylesheet" href="../css/scentuals.css">
+        
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0"/>
+    </head>
+
+    <body>
+        <header>
+            <img src="../img/zigzag.png" alt="zigzag"/>
+
+            <div id="nav">
+                <a href="index.html">HOME</a>
+                <a href="../html/about.html">ABOUT</a>
+                <a href="../html/cv.html">CV</a>
+            </div>
+        </header>
+
+        <main>
+            <div id="pageTitle">Scentuals: Natural & Organic Skincare</div>
+
+            <div class="section">
+                <ul>
+                    <li>Natural, Canadian-made products for everyone
+                        <p>
+                            Scentuals is a Canadian owned and operated skincare brand and small business focused on producing high quality, 
+                            ethically sourced, natural and organic products. The company is based in Vancouver, British Columbia. In addition 
+                            to the 'Scentuals' line, the business has a variety of subsidiary brands that centre similar values and provides 
+                            wholesale products.
+                        </p>
+                    </li>
+                    <li>Elevating the Scentuals Brand
+                        <p>
+                            In addition to creating and editing existing packaging design, I explored ways to evolve the Scentuals brand while 
+                            still adhering to their existing visual and brand guidelines. Clear values in using clean, safe-to-use, natural products, 
+                            and empowering small family-operated Canadian businesses made it easy to elevate Scentuals into a fresher look, 
+                            highlighting their messaging and pushing the brand into a more modern and contemporary feel.
+                        </p>
+                    </li>
+                </ul>
+            </div>
+
+            <div class="sectionTitle">COMPREHENSIVE ART DIRECTION AND BRAND IDENTITY THROUGH PRODUCT PHOTOGRAPHY</div>
+
+            <div id="brandContainer">
+                <img src="../img/Scentuals/scentuals-lifestyle.jpg" alt="Scentuals Lifestyle" class="brandImage"/>
+                <img src="../img/Scentuals/luxury-collection.jpg" alt="Luxury Collection" class="brandImage"/>
+                <img src="../img/Scentuals/rosemary-mint.jpg" alt="Rosemary Mint" class="brandImage"/>
+            </div>
+
+            <div class="sectionTitle">UPDATED HERO PRODUCT SELL CATALOGUE, THE SCENTUALS LUXURY COLLECTION</div>
+
+            <div id="heroSlideshow">
+                <img src="../img/Scentuals/hero-slideshow/scentuals-spread-1.png" class="slide active" alt="Scentuals Spread 1"/>
+                <img src="../img/Scentuals/hero-slideshow/scentuals-spread-2.png" class="slide" alt="Scentuals Spread 2"/>
+                <img src="../img/Scentuals/hero-slideshow/scentuals-spread-3.png" class="slide" alt="Scentuals Spread 3"/>
+                
+                <button id="prevBtn">
+                    <span class="material-symbols-outlined arrow_back_ios">
+                    arrow_back_ios</span>
+                </button>
+                <button id="nextBtn">
+                    <span class="material-symbols-outlined arrow_forward_ios">
+                    arrow_forward_ios</span>
+                </button>
+            </div>
+
+            <div class="sectionTitle">ONLINE PRESENCE AND SOCIAL MEDIA: WORKING WITH LANGTON PR AND REFRESHING THE INSTAGRAM</div>
+
+            <div id="onlineContainer">
+                <div class="onlineSubContainer">
+                    <img src="../img/Scentuals/ig-feed-before.jpg" alt="Instagram Feed Before"/>
+                    SAMPLE OF OLD FEED
+                </div>
+
+                <div class="onlineSubContainer">
+                    <img src="../img/Scentuals/ig-feed-after.jpg" alt="Instagram Feed After"/>
+                    PROPOSED REVISED FEED
+                </div>
+
+                <div class="onlineSubContainer">
+                    <img src="../img/Scentuals/ig-story.gif" alt="Instagram Story" id="instaGif"/>
+                    SAMPLE OF INSTAGRAM STORY
+                </div>
+            </div>
+
+            <div id="onlineParagraph">
+                <p>
+                    Working in collaboration with Langton PR, a Toronto-based communications and PR company, we strategized 
+                    content and created a robust social media calendar. Working with them to recieve customer feedback, we found that customers felt 
+                    they found the Scentuals’ online presence lifeless and boring.
+                </p>
+
+                <p>
+                    In response, we refreshed the Instagram to reflect the elevated identity for a more personal and diverse feed. We liked the clean 
+                    and bright look, but did not like the focus on product photography. Rather than posting only products we wanted to incorporate 
+                    intentional lifestyle shots to convey a cohesive Scentuals experience. I solidified and created assets for the new direction.
+                </p>
+
+                <p>
+                    In addition, knowing how important daily posts and regular content is, I pitched a new direction for the Scentuals’ social 
+                    media by stressing the importance of Instagram Stories, and executed them daily with a more casual, approachable feel.
+                </p>
+            </div>
+
+            <div id=opageeParagraph>
+                Creative Direction with Opagee: a Scentuals Subsidary Brand 
+                <p>
+                    Opagee was a previous brand underneath Scentuals with a goal to appeal to spa clientele. I supported the Lead Designer 
+                    with creating a clean and modern look to compliment his logo and label design by owning the product photography that would 
+                    go into sellsheets, catalogues and social media.
+                </p>
+            </div>
+
+            <div id="opageeContainer">
+                <img src="../img/Scentuals/essential-oils-opagee.jpg" alt="Essential Oils" class="essentialOils"/>
+                <img src="../img/Scentuals/beauty-oil-opagee-2.jpg" alt="Beauty Oil 1" class="oils"/>
+                <img src="../img/Scentuals/beauty-oil-opagee-1.jpg" alt="Beauty Oil 2" class="oils"/>
+            </div>
+        </main>
+
+        <footer>
+            <img src="../img/dog_illust.png" alt="dog illust"/>
+            
+            <div id="contact">
+                <div>
+                    Alexa Tarrayo <br>
+                    Vancouver, BC
+                </div>
+
+                <div>
+                    Linked In <br>
+                    alexatarrayo@gmail.com
+                </div>
+            </div>
+        </footer>
+
+        <script>
+            const slides = document.querySelectorAll('#heroSlideshow .slide');
+            let current = 0;
+
+            function showSlide(index) {
+                slides.forEach((slide, i) => {
+                    slide.classList.toggle('active', i === index);
+                });
+            }
+
+            document.getElementById('prevBtn').onclick = () => {
+                current = (current - 1 + slides.length) % slides.length;
+                showSlide(current);
+            };
+            document.getElementById('nextBtn').onclick = () => {
+                current = (current + 1) % slides.length;
+                showSlide(current);
+            };
+
+            // Initialize
+            showSlide(current);
+        </script>
+    </body>
+</html>
