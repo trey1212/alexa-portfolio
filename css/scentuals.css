@@ -55,10 +55,8 @@
     position: relative;
     width: 1241px;
     height: 622px;
-    padding-top: 50px;
-    padding-bottom: 55px;
-    
-    border-bottom: solid 1px #000;
+    margin-top: 50px;
+    margin-bottom: 55px;
 }
 
 #heroSlideshow .slide {
@@ -72,6 +70,8 @@
     object-fit: contain;
     object-position: center;
     z-index: 0;
+
+    border: solid 0.5px #000;
 }
 
 #heroSlideshow .slide.active {
