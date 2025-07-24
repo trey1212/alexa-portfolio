@@ -103,7 +103,7 @@ main {
 }
 
 .section > ul {
-    font-family: old;
+    font-family: new;
     font-size: 19px;
     list-style: none;
 
