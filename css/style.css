@@ -115,6 +115,10 @@ main {
     border-bottom: 1px solid #000;
 }
 
+.section > ul.noBorder {
+    border: none;
+}
+
 .section > ul > li {
     margin-bottom: 20px;
 }
