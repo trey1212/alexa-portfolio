@@ -52,6 +52,34 @@
 }
 /* Fresh roots section */
 
+
+#kinsight {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+#kinsight > img {
+    width: 1113.8px;
+    height: 707.8px;
+}
+
+#kinsightTop {
+    display: flex;
+    gap: 20px;
+}
+
+#spread {
+    width: 746px;
+    height: 585px;
+}
+
+#highlights {
+    width: 366px;
+    height: 585px;
+}
+
+
 /* Footer section */
 footer {
     width: 1050px;
