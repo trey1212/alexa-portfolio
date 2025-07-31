@@ -1,0 +1,77 @@
+main {
+    width: 100vw;
+    height: auto;
+    overflow: hidden;
+}
+
+#pageTitle {
+    padding-bottom: 15px;
+}
+
+/* Section Detailing */
+.sectionTitle {
+    width: 1070px;
+    font-family: neue_montreal_medium;
+    font-size: 14px;
+    margin-top: 80px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+    border-top: solid 1px #000;
+}
+
+.sectionTitleMargin {
+    margin-top: 5px;
+}
+
+.section > ul {
+    font-family: new;
+    font-size: 19px;
+    list-style: none;
+
+    padding: 0;
+    padding-right: 200px;
+    padding-bottom: 0;
+    margin: 0;
+}
+
+.section > ul > li {
+    margin-bottom: 20px;
+    padding-top: 5px;
+}
+
+.section > ul > li > p {
+    font-family: neue_montreal_book;
+    font-size: 15px;
+    width: 800px;
+}
+/* Section Detailing */
+
+/* Row detailing */
+.row {
+    display: flex;
+    gap: 25px;
+}
+
+.row > img {
+    width: 338px;
+    height: auto;
+}
+/* Row detailing */
+
+#newfoundland {
+    display: flex;
+    flex-direction: column;
+    gap: 25px;
+}
+
+#bigImage {
+    width: 702px;
+}
+
+
+/* Footer section */
+footer {
+    width: 1050px;
+    margin-top: 90px;
+}
+/* Footer section */

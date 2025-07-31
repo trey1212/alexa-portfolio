@@ -1,0 +1,61 @@
+#pageTitle {
+    padding-bottom: 15px;
+}
+
+/* Section Detailing */
+.sectionTitle {
+    font-family: neue_montreal_medium;
+    font-size: 14px;
+    margin-top: 20px;
+}
+
+.section > ul {
+    font-family: new;
+    font-size: 19px;
+    list-style: none;
+
+    padding: 0;
+    padding-right: 200px;
+    padding-bottom: 0;
+    margin: 0;
+    border-bottom: 1px solid #000;
+}
+
+.section > ul > li {
+    margin-bottom: 20px;
+    padding-top: 45px;
+}
+
+.section > ul > li > a {
+    color: #000;
+}
+
+.section > ul > li > p {
+    font-family: neue_montreal_book;
+    font-size: 15px;
+}
+/* Section Detailing */
+
+/* Report section */
+#reports {
+    height: 485px;
+    display: flex;
+    gap: 20px;
+}
+/* Report section */
+
+/* Fresh roots section */
+#freshRoots {
+    height: 485px;
+    display: flex;
+    gap: 20px;
+}
+/* Fresh roots section */
+
+/* Footer section */
+footer {
+    width: 1050px;
+    margin-top: 90px;
+    
+}
+/* Footer section */
