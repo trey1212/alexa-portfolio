@@ -52,7 +52,6 @@
 }
 /* Fresh roots section */
 
-
 #kinsight {
     display: flex;
     flex-direction: column;
@@ -87,3 +86,74 @@ footer {
     
 }
 /* Footer section */
+
+/* Mobile query */
+@media (max-width: 650px) {
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+        max-width: 100%; /* prevents images from spilling out */
+    }
+
+    body {
+        overflow-y: hidden;
+    }
+
+    main {
+        width: 100%;
+        box-sizing: border-box;
+        padding-left: 15px;
+        padding-right: 15px;
+
+    }
+
+    .section {
+        padding: 0; /* remove any previous negative padding */
+        box-sizing: border-box;
+    }
+
+    .section > ul {
+        width: 100%;
+        padding: 0; /* remove right padding */
+        margin: 0;
+    }
+
+    /* Report section */
+    #kinsight {
+        width: 100%;
+    }
+
+    #kinsightTop,
+    #reports,
+    #freshRoots {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+        height: auto;
+    }
+    /* Report section */
+
+    #spread,
+    #highlights,
+    #kinsight > img,
+    #timeline,
+    #reports > img,
+    #freshRoots > img {
+        width: 100% !important;
+        height: auto !important;
+        max-width: 100%;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin-top: 50px;
+        margin-left: 0;
+        width: 100%;
+        padding: 0;
+        padding-bottom: 20px;
+    }
+}

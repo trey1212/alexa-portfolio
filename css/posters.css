@@ -110,3 +110,60 @@ footer {
     margin-top: 180px;
 }
 /* Footer section */
+
+/* Mobile query */
+@media (max-width: 650px) {
+    *,
+    *::before,
+    *::after {
+        box-sizing: border-box;
+        max-width: 100%; /* prevents images from spilling out */
+    }
+
+    main {
+        width: 100%;
+    }
+
+    .posters {
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .mediaTitle {
+        width: 100%;
+    }
+
+    #gluedContainer,
+    #socialMediaContainer,
+    #fairContainer,
+    #petalsContainer {
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+    }
+
+    #petalsContainer {
+        align-items: center;
+    }
+
+    #gluedContainer > img,
+    #socialMediaContainer > img,
+    #fairContainer > img,
+    #petalsContainer > img,
+    #postcardContainer > img,
+    #petalsSlideshow > img {
+        width: 100%;
+        height: auto;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin-top: 50px;
+        margin-left: 0;
+        width: 100%;
+        padding: 0;
+    }
+}

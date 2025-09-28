@@ -221,65 +221,108 @@ li > p > a:hover {
 }
 
 /* Tablet query */
-/* @media (max-width: 800px) {
-  html, body {
-    background-color: red;
-    width: 100vw;
-    overflow-x: none;
-  }
+@media (min-width: 651px) and (max-width: 1000px) {
+    html, body {
+        background-color: red;
+        width: 100vw;
+        overflow-x: none;
+    }
 
-  main {
-    width: 100%;
-  }
+    main {
+        width: 100%;
+    }
 
-  #intro {
-    font-size: 28px;
-    padding-right: 200px;
-  }
+    #intro {
+        font-size: 28px;
+        padding-right: 200px;
+    }
 
-  footer > img {
-    width: 170px;
-    height: 170px;
-    padding-top: 35px;
-  }
+    footer > img {
+        width: 170px;
+        height: 170px;
+        padding-top: 35px;
+    }
 
-  #contact {
-    gap: 50px;
-  }
-} */
+    #contact {
+        gap: 50px;
+    }
+}
 
-/* Mobile query */
-/* @media (max-width: 650px) {
-  body {
-    background-color: blue;
-  }
+    /* Mobile query */
+    @media (max-width: 650px) {
+        html, body {
+            width: 100vw;
+            overflow-x: none;
+        }
 
-  header {
-    height: 80px;
-  }
+    header {
+        height: 80px;
+    }
 
-  header > img {
-    width: 300px;
-    top: -150px;
-    right: -85px;
-  }
+    header > img {
+        width: 300px;
+        top: -150px;
+        right: -85px;
+    }
 
-  main {
-    padding-left: 30px;
-  }
+    main {
+        width: 100%;
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 150px;
+        box-sizing: border-box
+    }
 
-  #nav {
-    gap: 20%;
-    padding: 0;
-    padding-top: 50px;
-    justify-content: center;
-  }
+    #intro {
+        width: 100%;
+        font-family: old;
+        font-size: 20px;
+        padding: 0;
+        padding-bottom: 20px;
+        line-height: 1.5;
+        box-sizing: border-box;
+        border-bottom: 1px solid #000;
+    }
 
-  #nav > a {
-    font-size: 13px;
-  }
+    .section > ul {
+        padding: 0;
+        font-size: 15px;
+    }
 
-  #intro {
-    font-size: 20px;
-  }
-} */
+    .sectionTitle {
+        font-size: 15px;
+    }
+
+    /* Nav bar */
+    #nav {
+        gap: 20%;
+        padding: 0;
+        padding-top: 50px;
+        justify-content: center;
+    }
+
+    #nav > a {
+        font-size: 13px;
+    }
+
+    #fillerImages {
+        display: none;
+    }
+
+    /* Footer */ 
+    footer { 
+        padding: 0;
+        margin: 0;
+        overflow: visible;
+        padding-left: 30px;
+        padding-top: 20px;
+    }
+
+    footer > img {
+        display: none;
+    }
+
+    #contact {
+        gap: 75px;
+    }
+}

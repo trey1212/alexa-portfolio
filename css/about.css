@@ -37,8 +37,8 @@ article > p {
 
 /* Filler images section */
 #giant_flower_2 {
-    width: 722px;
-    height: 722px;
+    width: 50%;
+    height: auto;
     position: absolute;
 
     right: -50px;
@@ -52,3 +52,52 @@ footer {
     margin-top: 285px;
 }
 /* Footer section */
+
+@media (min-width: 651px) and (max-width: 1000px) {
+    
+}
+
+/* Mobile view */
+@media (max-width: 650px) {
+    main {
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+    }
+
+    main > img {
+        width: 60%;
+        height: auto;
+        margin-bottom: 40px;
+    }
+
+    article {
+        width: 90%;
+    }
+
+    #open {
+        padding: 0;
+    }
+
+    #end {
+        padding: 0;
+    }
+
+    #giant_flower_2 {
+        display: none;
+    }
+
+    footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin-top: 50px;
+        margin-left: 0;
+        width: 100%;
+        padding: 0;
+    }
+
+    #contact {
+        gap: 100px;
+    }
+}

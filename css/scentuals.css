@@ -207,3 +207,83 @@ footer {
     
 }
 /* Footer section */
+
+/* Mobile query */
+@media (max-width: 650px) {
+    .section {
+        padding: 0;
+    }
+
+    .section > ul {
+        padding: 0;
+    }
+
+    /* Brand Images */
+    #brandContainer {
+        width: 100%;
+        flex-direction: column;
+    }
+
+    .brandImage {
+        width: 100%;
+        height: auto;
+    }
+    /* Brand Images */
+
+    /* Hero slideshow */
+    #heroSlideshow {
+        width: 100%;
+        height: 166px;
+    }
+    /* Hero slideshow */
+
+    /* Online section */
+    #onlineContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .onlineSubContainer img {
+        width: 100%;
+        height: auto;
+    }
+
+    #onlineParagraph {
+        width: 100%;
+    }
+    /* Online section */
+
+    /* Opagee section */
+    #opageeContainer {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    #opageeParagraph p {
+    width: 100%;
+}
+
+    .oils {
+        width: 100%;
+        height: auto;
+    }
+
+    .essentialOils {
+        width: 100%;
+        height: auto;
+    }
+    /* Opagee section */
+
+    /* Footer section */
+    footer {
+        flex-direction: column;
+        align-items: center;
+        gap: 50px;
+        margin-top: 50px;
+        margin-left: 0;
+        width: 100%;
+        padding: 0;
+    }
+    /* Footer section */
+}
+/* Mobile query */
