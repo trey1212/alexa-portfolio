@@ -221,7 +221,7 @@ li > p > a:hover {
 }
 
 /* Tablet query */
-@media (min-width: 651px) and (max-width: 1000px) {
+/* @media (min-width: 651px) and (max-width: 1000px) {
     html, body {
         background-color: red;
         width: 100vw;
@@ -246,7 +246,7 @@ li > p > a:hover {
     #contact {
         gap: 50px;
     }
-}
+} */
 
     /* Mobile query */
     @media (max-width: 650px) {
